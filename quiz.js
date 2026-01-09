@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Welche Speichertechnologie hat weltweit die größte installierte Kapazität?",
+        question: "Welche Speichertechnologie hat weltweit die grösste installierte Kapazität?",
         options: ["Lithium-Ionen-Batterien", "Pumpspeicherkraftwerke", "Wasserstoff", "Druckluftspeicher"],
         correct: 1 // Pumpspeicher
     },
@@ -121,7 +121,7 @@ const questions = [
     },
     {
         question: "Was verbessert Festkörperbatterien gegenüber herkömmlichen?",
-        options: ["Fester Elektrolyt (Sicherheit & Dichte)", "Flüssiges Metall", "Größeres Gehäuse", "Niedrigere Spannung"],
+        options: ["Fester Elektrolyt (Sicherheit & Dichte)", "Flüssiges Metall", "Grösseres Gehäuse", "Niedrigere Spannung"],
         correct: 0
     },
     {
@@ -170,7 +170,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Warum bauen Energieversorger wie die BKW große Batterien?",
+        question: "Warum bauen Energieversorger wie die BKW grosse Batterien?",
         options: ["Nur für den Eigenbedarf", "Zum Handel mit Strompreisschwankungen", "Als Museumsstück", "Um Überschuss zu vernichten"],
         correct: 1
     },
@@ -216,7 +216,7 @@ const questions = [
     },
     {
         question: "Warum sind Festkörperbatterien sicherer?",
-        options: ["Sie haben einen Feuerlöscher eingebaut", "Kein brennbarer flüssiger Elektrolyt", "Sie werden nicht heiß", "Sie bestehen aus Stahl"],
+        options: ["Sie haben einen Feuerlöscher eingebaut", "Kein brennbarer flüssiger Elektrolyt", "Sie werden nicht heiss", "Sie bestehen aus Stahl"],
         correct: 1
     },
     {
@@ -230,7 +230,7 @@ const questions = [
         correct: 1
     },
     {
-        question: "Was ist das größte Hindernis für neue Pumpspeicherkraftwerke?",
+        question: "Was ist das grösste Hindernis für neue Pumpspeicherkraftwerke?",
         options: ["Technik ist unbekannt", "Mangel an geeigneten Bergen/Tälern", "Zu wenig Wasser", "Zu geringer Wirkungsgrad"],
         correct: 1
     },
