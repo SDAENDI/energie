@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quellen - Energiespeicher</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .source-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .source-item {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        .citation-number {
+            font-weight: bold;
+            color: var(--primary-color);
+            min-width: 35px;
+        }
+
+        .citation-text {
+            color: #333;
+        }
+
+        .citation-placeholder {
+            text-transform: uppercase;
+            color: #e74c3c;
+            font-weight: 600;
+            font-size: 0.9em;
+            letter-spacing: 0.05em;
+        }
+
+        .file-ref {
+            display: block;
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            margin-top: 0.25rem;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-bolt"></i> EnergyStorage
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="technologies.html">Technologien</a></li>
+                <li><a href="comparison.html">Vergleich</a></li>
+                <li><a href="schweiz.html">Schweiz</a></li>
+                <li><a href="news.html">News & Zukunft</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="sources.html" class="active">Quellen</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 3rem 1rem;">
+            <h1>Literaturverzeichnis</h1>
+            <p>Wissenschaftliche Publikationen, Berichte und Nachrichtenquellen.</p>
+        </section>
+
+        <section
+            style="max-width: 900px; margin: 0 auto; background: var(--card-bg); padding: 3rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+            <ul class="source-list">
+                <!-- Source 1 -->
+                <li class="source-item" id="source-1">
+                    <span class="citation-number">[1]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES WISSENSCHAFTLICHEN ARTIKELS</span></i>.
+                        Elsevier ScienceDirect.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei:
+                            1-s2.0-S2590123025016597-main.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 2 -->
+                <li class="source-item" id="source-2">
+                    <span class="citation-number">[2]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i>A Comparative Review on Energy Storage Systems</i>.
+                        <span class="citation-placeholder">VERLAG/JOURNAL</span>.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei:
+                            A_Comparative_Review_on_Energy_Storage_Systems_and.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 3 -->
+                <li class="source-item" id="source-3">
+                    <span class="citation-number">[3]</span>
+                    <div class="citation-text">
+                        Institut für Technikfolgenabschätzung und Systemanalyse (ITAS) (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">BERICHTSTITEL</span></i>.
+                        Karlsruher Institut für Technologie (KIT).
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: Itas.kit.edu.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 4 -->
+                <li class="source-item" id="source-4">
+                    <span class="citation-number">[4]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES ARTIKELS (MDPI)</span></i>.
+                        Energies Journal, MDPI.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: mdpi1.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 5 -->
+                <li class="source-item" id="source-5">
+                    <span class="citation-number">[5]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES ARTIKELS (MDPI)</span></i>.
+                        Energies Journal, MDPI.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: mdpi2.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 6 -->
+                <li class="source-item" id="source-6">
+                    <span class="citation-number">[6]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES ARTIKELS (MDPI)</span></i>.
+                        Energies Journal, MDPI.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: mdpi3.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 7 -->
+                <li class="source-item" id="source-7">
+                    <span class="citation-number">[7]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES ARTIKELS (MDPI)</span></i>.
+                        Energies Journal, MDPI.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: mdpi4.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 8 -->
+                <li class="source-item" id="source-8">
+                    <span class="citation-number">[8]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">WISSENSCHAFTLICHER ARTIKEL</span></i>.
+                        Nature / Scientific Reports.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: nature.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 9 -->
+                <li class="source-item" id="source-9">
+                    <span class="citation-number">[9]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">REDAKTION</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">ARTIKEL ÜBERSCHRIFT</span></i>.
+                        News Bulletin.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: news-bulletin.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 10 -->
+                <li class="source-item" id="source-10">
+                    <span class="citation-number">[10]</span>
+                    <div class="citation-text">
+                        Clean Energy Wire (<span class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">ARTIKEL ÜBERSCHRIFT</span></i>.
+                        Clean Energy Wire Report.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei:
+                            news-cleanenerywire.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 11 -->
+                <li class="source-item" id="source-11">
+                    <span class="citation-number">[11]</span>
+                    <div class="citation-text">
+                        Das Wissen (<span class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">ARTIKEL ÜBERSCHRIFT</span></i>.
+                        Wissenschaftsmagazin.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: news-daswissen.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 12 -->
+                <li class="source-item" id="source-12">
+                    <span class="citation-number">[12]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">ARTIKEL ÜBERSCHRIFT</span></i>.
+                        Strom News.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: news-strom.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 13 -->
+                <li class="source-item" id="source-13">
+                    <span class="citation-number">[13]</span>
+                    <div class="citation-text">
+                        The Guardian (<span class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">ARTIKEL ÜBERSCHRIFT</span></i>.
+                        The Guardian Environment.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: news-theguardian.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 14 -->
+                <li class="source-item" id="source-14">
+                    <span class="citation-number">[14]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES WISSENSCHAFTLICHEN ARTIKELS</span></i>.
+                        Elsevier ScienceDirect.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: sciencedirect1.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 15 -->
+                <li class="source-item" id="source-15">
+                    <span class="citation-number">[15]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES WISSENSCHAFTLICHEN ARTIKELS</span></i>.
+                        Elsevier ScienceDirect.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: sciencedirect2.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 16 -->
+                <li class="source-item" id="source-16">
+                    <span class="citation-number">[16]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">TITEL DES WISSENSCHAFTLICHEN ARTIKELS</span></i>.
+                        Elsevier ScienceDirect.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: sciencedirect3.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 17 -->
+                <li class="source-item" id="source-17">
+                    <span class="citation-number">[17]</span>
+                    <div class="citation-text">
+                        <span class="citation-placeholder">AUTOR</span> (<span
+                            class="citation-placeholder">JAHR</span>).
+                        <i><span class="citation-placeholder">BUCH ODER ARTIKEL TITEL</span></i>.
+                        Springer Nature.
+                        <span class="file-ref"><i class="fa-regular fa-file-pdf"></i> Datei: springer.pdf</span>
+                    </div>
+                </li>
+
+                <!-- Source 18 (SRF) -->
+                <li class="source-item" id="source-18">
+                    <span class="citation-number">[18]</span>
+                    <div class="citation-text">
+                        Schweizer Radio und Fernsehen (SRF) (2025).
+                        <i>Grosse Pläne, Riesen-Batterien - Schweizer Energieversorger setzen auf riesige
+                            Speichersysteme</i>.
+                        Abgerufen am 04.12.2025 von <a
+                            href="https://www.srf.ch/news/wirtschaft/grosse-plaene-riesen-batterien-schweizer-energieversorger-setzen-auf-riesige-speichersysteme"
+                            target="_blank">srf.ch</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>EnergyStorage</h3>
+                <p>Eine Informationswebseite über Speichertechnologien für die Schule.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="technologies.html">Technologien</a>
+                <a href="comparison.html">Vergleich</a>
+                <a href="schweiz.html">Schweiz</a>
+                <a href="news.html">News & Zukunft</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="sources.html">Quellen</a>
+            </div>
+            <p style="font-size: 0.8rem; opacity: 0.6;">&copy; 2026. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
